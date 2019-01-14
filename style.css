@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-size: 24px;
+}
+
+.positionFixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 150px;
+    padding: 40px;
+    text-align: center;
+    background-color: #eee;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.positionRelative {
+    position: relative;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: pink;
+    margin: 20px 0 20px 0;
+}
+
+.positionAbsolute {
+    position: absolute;
+    bottom: 0; 
+    right: -25px;
+    width: 200px;
+    padding: 25px;
+    background-color: grey;
+}
+
